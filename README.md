@@ -34,5 +34,5 @@ To run the Hangman Game on your machine, follow these steps:
    * cd hangman_project
 
 3. Run the game script.
-   * python hangman_project
+   * python hangman_project.py
 
