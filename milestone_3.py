@@ -1,4 +1,3 @@
-
 import random
 
 def check_guess(guess, word):
@@ -16,11 +15,9 @@ def check_guess(guess, word):
 
 word_list = ["tangerine", "apple", "pineapple", "plum", "banana"]
 word = random.choice(word_list)
-
 user_guess = input(str("Enter a letter: "))
 
 check_guess(user_guess, word)
-
 
 
 def ask_for_input():
@@ -31,7 +28,7 @@ def ask_for_input():
                 break
             else:
                 print("Invalid letter. Please, enter a single alphabetical character.")
-
+                
             print("Good Guess. The word you guessed is: ", user_guess)
 
 ask_for_input()
